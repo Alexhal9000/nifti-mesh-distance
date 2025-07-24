@@ -103,10 +103,6 @@ python3.10 mesh_distance_comparison.py
 - **Python version:** The tool requires Python 3.10. Check with `python3.10 --version`.
 - **Virtual environment not found:** Run `./setup.sh` before `./run.sh`.
 
-## License
-
-[Add your license here]
-
 ---
 
-*Developed by Alexhal9000 and contributors.* 
+*Developed by @Alexhal9000 Alejandro Gutierrez.* 
