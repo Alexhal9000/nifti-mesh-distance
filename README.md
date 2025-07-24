@@ -16,10 +16,6 @@ The Mesh Distance Comparison Tool is a Python-based utility for comparing the su
 - **Dummy data mode** for quick testing (cube and sphere)
 - **Easy setup and execution scripts**
 
-## Screenshot
-
-![Mesh Distance Heatmap Screenshot](screenshot.png)
-
 ## Requirements
 - Python 3.10
 - Linux (tested), should work on macOS/Windows with compatible Python/VTK
@@ -34,6 +30,28 @@ vtk>=9.0.0
 matplotlib>=3.5.0
 fast-simplification
 pyvista
+```
+
+### Installing Python 3.10 on Ubuntu (via Deadsnakes PPA)
+
+If your system does not have Python 3.10, you can install it using the Deadsnakes PPA with the following commands:
+
+```bash
+# 1. Update package list and install prerequisites
+sudo apt update
+sudo apt install -y software-properties-common
+
+# 2. Add the Deadsnakes PPA
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+# 3. Update package list again (to include Deadsnakes)
+sudo apt update
+
+# 4. Install Python 3.10
+sudo apt install -y python3.10 python3.10-venv python3.10-distutils
+
+# 5. (Optional) Check the installed version
+python3.10 --version
 ```
 
 ## Setup
